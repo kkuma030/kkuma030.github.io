@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .photo {
+        margin-top: 150px;
+        margin-bottom: 40px;
+        width: 25vw;       
+        @media(max-width: 414px) {
+            margin-bottom: 40px;
+            width: 60vw;
+        }
+    }
+    .word {
+        line-height: 26px;
+    }
+}
